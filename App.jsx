@@ -7,8 +7,8 @@ export default function App() {
     <Routes>
       <Route element={<PublicLayout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/app/dashboard" element={<Dashboard />} />
-        <Route path="/app/creditsummary" element={<CreditSummary />} />
+        <Route path="/app/Dashboard" element={<Dashboard />} />
+        <Route path="/app/CreditSummary" element={<CreditSummary />} />
       </Route>
     </Routes>
   );
