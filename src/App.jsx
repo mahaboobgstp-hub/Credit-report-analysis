@@ -9,6 +9,7 @@ import CreditScore from "./pages/dashboard/CreditScore";
 import ActiveLoans from "./pages/dashboard/ActiveLoans";
 import NegativeAccounts from "./pages/dashboard/NegativeAccounts";
 import Subscription from "./pages/dashboard/Subscription";
+import DPDHistory from "./pages/dashboard/DPDHistory";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/dashboard/active-loans" element={<ActiveLoans />} />
         <Route path="/dashboard/negative-accounts" element={<NegativeAccounts />} />
         <Route path="/dashboard/subscription" element={<Subscription />} />
+        <Route path="/dashboard/dpd-history" element={<DPDHistory />} />
       </Routes>
     </BrowserRouter>
   );
