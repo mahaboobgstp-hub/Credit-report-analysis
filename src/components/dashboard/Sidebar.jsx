@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "../../styles/dashboard.css";
 
 export default function Sidebar() {
@@ -7,21 +8,55 @@ export default function Sidebar() {
 
       <nav>
         <ul>
-          <li className="active">Overview</li>
-          <li>Credit Score</li>
-          <li>Active Loans</li>
-          <li>Negative Accounts</li>
-          <li>DPD History</li>
-          <li>Credit Utilization</li>
-          <li>Credit Mix</li>
-          <li>Enquiries</li>
-          <li>Closed Loans</li>
-          <li>Subscription</li>
-          <li>Refresh Report</li>
-          <li>Profile</li>
+          <li>
+            <NavLink to="/dashboard" end>
+              Overview
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/dashboard/credit-score">
+              Credit Score
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/dashboard/active-loans">
+              Active Loans
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/dashboard/negative-accounts">
+              Negative Accounts
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/dashboard/dpd-history">
+              DPD History
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/dashboard/credit-utilization">
+              Credit Utilization
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/dashboard/credit-mix">
+              Credit Mix
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/dashboard/subscription">
+              Subscription
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </aside>
   );
 }
-
