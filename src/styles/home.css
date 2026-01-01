@@ -240,3 +240,49 @@
   color: #475569;
   font-size: 0.95rem;
 }
+
+.trust {
+  padding: 70px 20px;
+  background: #f1f5f9;
+  text-align: center;
+}
+
+.trust h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.trust .subtitle {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  color: #475569;
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.trust-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: left;
+  border-top: 4px solid #22c55e;
+}
+
+.trust-card h3 {
+  color: #1e293b;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.trust-card p {
+  color: #475569;
+  font-size: 0.95rem;
+}
