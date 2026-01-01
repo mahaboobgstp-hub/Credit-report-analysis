@@ -256,3 +256,41 @@
   background: #ecfdf5;
   color: #065f46;
 }
+.risk-score-card {
+  background: #020617;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.risk-grade.medium {
+  color: #facc15;
+  font-weight: 600;
+}
+
+.risk-summary p {
+  font-size: 0.9rem;
+  color: #e5e7eb;
+}
+
+.recommendation {
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.recommendation.warning {
+  background: #fff7ed;
+  border-left: 4px solid #f97316;
+  color: #7c2d12;
+}
+
+.risk-factors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
