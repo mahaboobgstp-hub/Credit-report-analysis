@@ -13,6 +13,8 @@ import DPDHistory from "./pages/dashboard/DPDHistory";
 import CreditUtilization from "./pages/dashboard/CreditUtilization";
 import CreditMix from "./pages/dashboard/CreditMix";
 import B2BOverview from "./pages/b2b/dashboard/Overview";
+import BorrowerSearch from "./pages/b2b/dashboard/BorrowerSearch";
+import BorrowerProfile from "./pages/b2b/dashboard/BorrowerProfile";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/dashboard/credit-utilization" element={<CreditUtilization />} />
         <Route path="/dashboard/credit-mix" element={<CreditMix />} />
         <Route path="/b2b/dashboard" element={<B2BOverview />} />
+        <Route path="/b2b/dashboard/borrowers" element={<BorrowerSearch />} />
+        <Route path="/b2b/dashboard/borrowers/:id" element={<BorrowerProfile />} />
       </Routes>
     </BrowserRouter>
   );
