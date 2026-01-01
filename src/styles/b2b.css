@@ -215,3 +215,44 @@
   color: #dc2626;
   font-weight: 700;
 }
+.b2b-source-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.source-options {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.b2b-secondary-btn {
+  padding: 10px 16px;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.source-note {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.trend-positive {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.trend-negative {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.flag.ok {
+  background: #ecfdf5;
+  color: #065f46;
+}
