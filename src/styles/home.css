@@ -147,3 +147,50 @@
   color: #475569;
   font-size: 0.95rem;
 }
+
+.services {
+  padding: 70px 20px;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.services .subtitle {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #475569;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  border-top: 4px solid #22c55e;
+}
+
+.service-card h3 {
+  color: #1e293b;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #475569;
+  font-size: 0.95rem;
+}
