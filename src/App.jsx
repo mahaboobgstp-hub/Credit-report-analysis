@@ -8,6 +8,7 @@ import DashboardOverview from "./pages/dashboard/DashboardOverview";
 import CreditScore from "./pages/dashboard/CreditScore";
 import ActiveLoans from "./pages/dashboard/ActiveLoans";
 import NegativeAccounts from "./pages/dashboard/NegativeAccounts";
+import Subscription from "./pages/dashboard/Subscription";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/dashboard/credit-score" element={<CreditScore />} />
         <Route path="/dashboard/active-loans" element={<ActiveLoans />} />
         <Route path="/dashboard/negative-accounts" element={<NegativeAccounts />} />
+        <Route path="/dashboard/subscription" element={<Subscription />} />
       </Routes>
     </BrowserRouter>
   );
