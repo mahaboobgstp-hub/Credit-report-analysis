@@ -299,3 +299,56 @@
   font-size: 0.85rem;
   color: #475569;
 }
+
+.utilization-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  max-width: 400px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.utilization-card h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.utilization-status {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.utilization-status.risk {
+  color: #dc2626;
+}
+
+.utilization-desc {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.mix-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.mix-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.mix-card h3 {
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.mix-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
