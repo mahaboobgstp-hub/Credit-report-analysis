@@ -226,3 +226,39 @@
   font-size: 1rem;
   color: #020617;
 }
+.lsp-partner-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+
+.partner-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partner-details p {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.partner-meta {
+  text-align: right;
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.lsp-info-card {
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+
+.lsp-info-card ul {
+  padding-left: 18px;
+  color: #475569;
+  font-size: 0.9rem;
+}
