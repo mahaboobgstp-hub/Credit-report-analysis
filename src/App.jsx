@@ -17,6 +17,7 @@ import BorrowerSearch from "./pages/b2b/dashboard/BorrowerSearch";
 import BorrowerProfile from "./pages/b2b/dashboard/BorrowerProfile";
 import CreditReport from "./pages/b2b/dashboard/CreditReport";
 import BankAnalysis from "./pages/b2b/dashboard/BankAnalysis";
+import RiskEngine from "./pages/b2b/dashboard/RiskEngine";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/b2b/dashboard/borrowers/:id" element={<BorrowerProfile />} />
         <Route path="/b2b/dashboard/credit-report" element={<CreditReport />} />
         <Route path="/b2b/dashboard/bank-analysis" element={<BankAnalysis />} />
+        <Route path="/b2b/dashboard/risk" element={<RiskEngine />} />
       </Routes>
     </BrowserRouter>
   );
