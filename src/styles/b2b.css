@@ -1,1 +1,89 @@
+.b2b-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.b2b-sidebar {
+  width: 270px;
+  background: #020617;
+  color: #e5e7eb;
+  padding: 25px;
+}
+
+.b2b-logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.b2b-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.b2b-sidebar li {
+  margin-bottom: 12px;
+}
+
+.b2b-sidebar a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.b2b-sidebar a.active,
+.b2b-sidebar a:hover {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.b2b-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.b2b-content h1 {
+  color: #020617;
+}
+
+.b2b-subtitle {
+  color: #475569;
+  margin-bottom: 30px;
+}
+
+.b2b-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.b2b-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.b2b-card h3 {
+  font-size: 0.9rem;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.b2b-card p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #020617;
+}
+
+.b2b-info {
+  margin-top: 35px;
+  padding: 20px;
+  background: #ecfeff;
+  border-left: 4px solid #06b6d4;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #164e63;
+}
 
