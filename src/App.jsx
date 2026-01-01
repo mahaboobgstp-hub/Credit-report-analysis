@@ -20,6 +20,7 @@ import BankAnalysis from "./pages/b2b/dashboard/BankAnalysis";
 import RiskEngine from "./pages/b2b/dashboard/RiskEngine";
 import IncomeVerification from "./pages/b2b/dashboard/IncomeVerification";
 import CreditDecision from "./pages/b2b/dashboard/CreditDecision";
+import Step1KYC from "./pages/lsp/apply/Step1KYC";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Route path="/b2b/dashboard/risk" element={<RiskEngine />} />
         <Route path="/b2b/dashboard/income" element={<IncomeVerification />} />
         <Route path="/b2b/dashboard/decision" element={<CreditDecision />} />
+        <Route path="/lsp/apply" element={<Step1KYC />} />
       </Routes>
     </BrowserRouter>
   );
