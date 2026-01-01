@@ -262,3 +262,57 @@
   color: #475569;
   font-size: 0.9rem;
 }
+.lsp-section-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+
+.section-desc {
+  font-size: 0.9rem;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.nach-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.nach-details span {
+  display: block;
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.nach-details strong {
+  font-size: 0.95rem;
+  color: #020617;
+}
+
+.lsp-secondary-btn {
+  padding: 10px 16px;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.agreement-box {
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.agreement-note {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 6px;
+}
