@@ -70,3 +70,56 @@
   cursor: pointer;
 }
 
+.center {
+  text-align: center;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #e5e7eb;
+  border-top: 4px solid #16a34a;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.analysis-text {
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.lsp-result {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  margin-top: 25px;
+}
+
+.lsp-result.success {
+  border-left: 4px solid #16a34a;
+}
+
+.result-points {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.result-points li {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #065f46;
+}
+
+.lsp-disclaimer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #64748b;
+}
