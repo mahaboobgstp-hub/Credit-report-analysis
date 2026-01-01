@@ -26,6 +26,7 @@ import Step3Employment from "./pages/lsp/apply/Step3Employment";
 import Step4Documents from "./pages/lsp/apply/Step4Documents";
 import Step5Result from "./pages/lsp/apply/Step5Result";
 import Step6Handoff from "./pages/lsp/apply/Step6Handoff";
+import Step7Agreement from "./pages/lsp/apply/Step7Agreement";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
         <Route path="/lsp/apply/documents" element={<Step4Documents />} />
         <Route path="/lsp/apply/result" element={<Step5Result />} />
         <Route path="/lsp/apply/handoff" element={<Step6Handoff />} />
+        <Route path="/lsp/apply/agreement" element={<Step7Agreement />} />
       </Routes>
     </BrowserRouter>
   );
