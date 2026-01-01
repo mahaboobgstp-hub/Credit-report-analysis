@@ -207,3 +207,52 @@
   color: #dc2626;
   font-weight: 700;
 }
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+
+.plan-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.plan-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.plan-price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.plan-duration {
+  font-size: 0.85rem;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan-card li {
+  padding: 6px 0;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.plan-card.premium {
+  border: 2px solid #22c55e;
+}
