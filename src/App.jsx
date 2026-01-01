@@ -10,6 +10,8 @@ import ActiveLoans from "./pages/dashboard/ActiveLoans";
 import NegativeAccounts from "./pages/dashboard/NegativeAccounts";
 import Subscription from "./pages/dashboard/Subscription";
 import DPDHistory from "./pages/dashboard/DPDHistory";
+import CreditUtilization from "./pages/dashboard/CreditUtilization";
+import CreditMix from "./pages/dashboard/CreditMix";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/dashboard/negative-accounts" element={<NegativeAccounts />} />
         <Route path="/dashboard/subscription" element={<Subscription />} />
         <Route path="/dashboard/dpd-history" element={<DPDHistory />} />
+        <Route path="/dashboard/credit-utilization" element={<CreditUtilization />} />
+        <Route path="/dashboard/credit-mix" element={<CreditMix />} />
       </Routes>
     </BrowserRouter>
   );
