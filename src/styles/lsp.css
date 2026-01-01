@@ -123,3 +123,9 @@
   font-size: 0.8rem;
   color: #64748b;
 }
+.lsp-card select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+}
