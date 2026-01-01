@@ -15,6 +15,7 @@ import CreditMix from "./pages/dashboard/CreditMix";
 import B2BOverview from "./pages/b2b/dashboard/Overview";
 import BorrowerSearch from "./pages/b2b/dashboard/BorrowerSearch";
 import BorrowerProfile from "./pages/b2b/dashboard/BorrowerProfile";
+import CreditReport from "./pages/b2b/dashboard/CreditReport";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/b2b/dashboard" element={<B2BOverview />} />
         <Route path="/b2b/dashboard/borrowers" element={<BorrowerSearch />} />
         <Route path="/b2b/dashboard/borrowers/:id" element={<BorrowerProfile />} />
+        <Route path="/b2b/dashboard/credit-report" element={<CreditReport />} />
       </Routes>
     </BrowserRouter>
   );
