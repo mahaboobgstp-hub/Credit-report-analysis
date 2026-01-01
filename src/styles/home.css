@@ -311,3 +311,17 @@
   gap: 15px;
   justify-content: center;
 }
+
+.footer {
+  padding: 30px 20px;
+  background: #0f172a;
+  color: #cbd5f5;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-note {
+  margin-top: 8px;
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
