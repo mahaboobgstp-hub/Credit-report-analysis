@@ -87,3 +87,58 @@
   color: #164e63;
 }
 
+.b2b-search-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  max-width: 700px;
+  margin-bottom: 30px;
+  display: grid;
+  gap: 15px;
+}
+
+.b2b-search-card input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.b2b-primary-btn {
+  padding: 12px;
+  background: #22c55e;
+  color: #020617;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.b2b-table {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  border-collapse: collapse;
+}
+
+.b2b-table th,
+.b2b-table td {
+  padding: 14px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.b2b-table th {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.risk-medium {
+  color: #f59e0b;
+  font-weight: 600;
+}
+
+.b2b-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
