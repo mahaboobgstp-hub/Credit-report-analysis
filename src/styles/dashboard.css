@@ -256,3 +256,46 @@
 .plan-card.premium {
   border: 2px solid #22c55e;
 }
+
+.info-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+.info-box h3 {
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.info-box ul {
+  padding-left: 18px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.apply-guidance {
+  background: #ecfeff;
+  border-left: 4px solid #06b6d4;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 700px;
+}
+
+.apply-guidance h3 {
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.apply-guidance p {
+  color: #164e63;
+  font-size: 0.95rem;
+}
+
+.apply-guidance .note {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #475569;
+}
