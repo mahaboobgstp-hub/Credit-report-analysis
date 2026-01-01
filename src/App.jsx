@@ -23,6 +23,7 @@ import CreditDecision from "./pages/b2b/dashboard/CreditDecision";
 import Step1KYC from "./pages/lsp/apply/Step1KYC";
 import Step2CreditCheck from "./pages/lsp/apply/Step2CreditCheck";
 import Step3Employment from "./pages/lsp/apply/Step3Employment";
+import Step4Documents from "./pages/lsp/apply/Step4Documents";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path="/lsp/apply" element={<Step1KYC />} />
         <Route path="/lsp/apply/credit-check" element={<Step2CreditCheck />} />
         <Route path="/lsp/apply/employment" element={<Step3Employment />} />
+        <Route path="/lsp/apply/documents" element={<Step4Documents />} />
       </Routes>
     </BrowserRouter>
   );
