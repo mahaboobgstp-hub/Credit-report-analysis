@@ -1,1 +1,72 @@
+.lsp-container {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding: 30px;
+}
+
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.step {
+  text-align: center;
+  flex: 1;
+  color: #94a3b8;
+}
+
+.step.active {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.step span {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+
+.step.active span {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.lsp-content {
+  max-width: 520px;
+  margin: auto;
+}
+
+.lsp-subtitle {
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.lsp-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  display: grid;
+  gap: 14px;
+}
+
+.lsp-card input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.lsp-primary-btn {
+  padding: 12px;
+  background: #16a34a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
 
