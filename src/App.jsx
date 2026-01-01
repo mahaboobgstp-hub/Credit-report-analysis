@@ -19,6 +19,7 @@ import CreditReport from "./pages/b2b/dashboard/CreditReport";
 import BankAnalysis from "./pages/b2b/dashboard/BankAnalysis";
 import RiskEngine from "./pages/b2b/dashboard/RiskEngine";
 import IncomeVerification from "./pages/b2b/dashboard/IncomeVerification";
+import CreditDecision from "./pages/b2b/dashboard/CreditDecision";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/b2b/dashboard/bank-analysis" element={<BankAnalysis />} />
         <Route path="/b2b/dashboard/risk" element={<RiskEngine />} />
         <Route path="/b2b/dashboard/income" element={<IncomeVerification />} />
+        <Route path="/b2b/dashboard/decision" element={<CreditDecision />} />
       </Routes>
     </BrowserRouter>
   );
