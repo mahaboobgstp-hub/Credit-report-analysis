@@ -51,9 +51,13 @@ export default function Step4Documents() {
         </label>
       </div>
 
-      <button className="lsp-primary-btn">
-        Submit Documents & Continue
-      </button>
+     <button
+  className="lsp-primary-btn"
+  onClick={() => navigate("/lsp/apply/result")}
+>
+  Submit Documents & Continue
+</button>
+
 
       <p className="lsp-disclaimer">
         Your documents are securely handled and shared only with lending partners
