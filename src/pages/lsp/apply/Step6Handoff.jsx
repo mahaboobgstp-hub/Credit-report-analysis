@@ -46,9 +46,13 @@ export default function Step6Handoff() {
       </div>
 
       {/* CTA */}
-      <button className="lsp-primary-btn">
-        Proceed to Mandate & Agreement
-      </button>
+     <button
+  className="lsp-primary-btn"
+  onClick={() => navigate("/lsp/apply/agreement")}
+>
+  Proceed to Mandate & Agreement
+</button>
+
 
       {/* DISCLAIMER */}
       <p className="lsp-disclaimer">
