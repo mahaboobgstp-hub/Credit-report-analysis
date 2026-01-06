@@ -48,9 +48,13 @@ export default function Step5Result() {
       </div>
 
       {/* NEXT STEP CTA */}
-      <button className="lsp-primary-btn">
-        Proceed to Lender Review
-      </button>
+     <button
+  className="lsp-primary-btn"
+  onClick={() => navigate("/lsp/apply/handoff")}
+>
+  Proceed to Lender Review
+</button>
+
 
       {/* DISCLAIMER */}
       <p className="lsp-disclaimer">
