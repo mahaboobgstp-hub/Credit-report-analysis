@@ -29,9 +29,13 @@ export default function Step3Employment() {
         {/* Nature of Business */}
         {/* Monthly Average Income */}
 
-        <button className="lsp-primary-btn">
-          Continue to Document Upload
-        </button>
+        <button
+  className="lsp-primary-btn"
+  onClick={() => navigate("/lsp/apply/documents")}
+>
+  Continue to Document Upload
+</button>
+
       </div>
 
       <p className="lsp-disclaimer">
