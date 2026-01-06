@@ -1,6 +1,8 @@
 import LSPLayout from "../../../layouts/LSPLayout";
 import "../../../styles/lsp.css";
 import { useNavigate } from "react-router-dom";
+
+export default function Step1KYC() {
 const navigate = useNavigate();
 
   return (
