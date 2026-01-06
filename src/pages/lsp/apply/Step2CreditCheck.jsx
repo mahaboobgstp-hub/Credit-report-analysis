@@ -31,9 +31,13 @@ export default function Step2CreditCheck() {
           <li>✔ Credit behaviour appears stable</li>
         </ul>
 
-        <button className="lsp-primary-btn">
-          Continue to Employment Details
-        </button>
+        <button
+  className="lsp-primary-btn"
+  onClick={() => navigate("/lsp/apply/employment")}
+>
+  Continue to Employment Details
+</button>
+
       </div>
 
       {/* DISCLAIMER */}
