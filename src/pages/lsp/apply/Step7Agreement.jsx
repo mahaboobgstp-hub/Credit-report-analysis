@@ -63,9 +63,13 @@ export default function Step7Agreement() {
       </div>
 
       {/* CTA */}
-      <button className="lsp-primary-btn">
-        Complete Mandate & Agreement
-      </button>
+      <button
+  className="lsp-primary-btn"
+  onClick={() => navigate("/lsp/apply/status")}
+>
+  Complete Mandate & Agreement
+</button>
+
 
       {/* DISCLAIMER */}
       <p className="lsp-disclaimer">
