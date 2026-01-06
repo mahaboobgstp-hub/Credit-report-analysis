@@ -1,7 +1,8 @@
 import LSPLayout from "../../../layouts/LSPLayout";
 import "../../../styles/lsp.css";
+import { useNavigate } from "react-router-dom";
+const navigate = useNavigate();
 
-export default function Step1KYC() {
   return (
     <LSPLayout step={0}>
       <h1>Apply for Personal Loan</h1>
