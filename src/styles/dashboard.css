@@ -352,3 +352,22 @@
   font-weight: 700;
   margin-bottom: 5px;
 }
+
+/* Sidebar links */
+.sidebar a {
+  color: #ffffff;              /* white text */
+  text-decoration: none;       /* remove underline */
+  display: block;              /* full clickable area */
+  font-size: 0.95rem;
+}
+
+/* Hover effect */
+.sidebar a:hover {
+  color: #22c55e;              /* green on hover */
+}
+
+/* Active route (NavLink adds .active automatically) */
+.sidebar a.active {
+  color: #22c55e;              /* green for active page */
+  font-weight: 600;
+}
