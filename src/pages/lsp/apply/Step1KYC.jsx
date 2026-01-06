@@ -17,9 +17,13 @@ const navigate = useNavigate();
         <input placeholder="Mobile Number" />
         <input placeholder="Email Address" />
 
-        <button className="lsp-primary-btn">
-          Continue
-        </button>
+        <button
+  className="lsp-primary-btn"
+  onClick={() => navigate("/lsp/apply/credit-check")}
+>
+  Continue
+</button>
+
       </div>
     </LSPLayout>
   );
